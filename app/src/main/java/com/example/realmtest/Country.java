@@ -5,7 +5,7 @@ import io.realm.RealmObject;
 public class Country extends RealmObject {
     private String name;
     private String population;
-    private int id;
+    private String id;
 
     public Country(){}
 
@@ -25,11 +25,11 @@ public class Country extends RealmObject {
         this.population = population;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
